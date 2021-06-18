@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:id="@+id/phone_Cardview"
+    app:cardElevation="6dp">
+
+    <ImageView
+        android:id="@+id/image_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/text_product"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="Shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.cardview.widget.CardView>
